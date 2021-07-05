@@ -49,3 +49,33 @@ https://github.com/yonggyo1981
 html2
 
 회원가입 양식
+
+align - 가로 정렬(left, center, right)
+valign- 수직 정렬 (top, middle, bottom)
+
+&nbsp; - > 공백 1개
+&amp; - > &
+&lt; -->   <
+&gt; -->  >
+
+ul - unordered list - > 순서가 없는 목록
+ol - ordered list -> 순서가 있는 목록
+dl - dt, dd
+
+
+a 
+	태그
+		-href - 링크이동
+		-target - 이동할 창
+	
+	속성
+		_self - 현재 창에서 열기
+		_blank - 새 창
+		
+		내부 창의 name 값
+		
+내부 창을 같은 페이지 하부의 iframe
+
+padding - 내부 여백
+margin -  외부 여백
+

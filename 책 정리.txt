@@ -1,0 +1,99 @@
+브라우저 - 자바스크립트 해석기
+(자바스크립트 런타임)
+
+자바스크립트
+ - 사용자와 상호작용
+ 
+ 자바스크립트 코어 소스 (ECMA Script)
+ 브라우저 관련 소스 (브라우저에만 있는 소스)
+ 
+- 색상
+ 경계선
+ 글꼴 색상
+ 배경색
+ 
+ 1. 색상명 (red, bule ,green, yellow)
+ 2. RGB 
+	RED		 GREEN		BLUE
+	(0~255)	 (0~255)		(0~255)
+	255 * 255 * 255 가지의 색상
+
+3. HEX 코드 (16진수 코드)
+	RED
+	RGB	 255, 0, 0
+	16진수 ff 00 00
+	#ff 00 00
+	
+4. RGBA
+		A - 알파채널 ( 투명도 ) 0 ~ 1
+		0에 가까울 수록 투명, 1에 가까울 수록 불투명
+		
+table - 표
+	th, td
+		rowspan - 행 병합 ( 세로 )
+		colspan - 열 병합 ( 가로 )
+		
+img
+	src - 이미지 경로
+	width
+	height
+	alt - alternative text (대체문구)
+	
+body
+	bgcolor 전체 배경색
+	text - 글꼴 색
+	link - a 태그 링크 기본 색상
+	vlink - a 태그 링크 이동 후 색상 (visited)
+	alink - a 태그를 클릭할때 색상
+	
+,,/ -> 상위 폴더로 이동
+
+form - 양식, 신청서
+
+<form method=" action=">
+
+</form>
+
+-method - 전송방식 (GET, POST)
+
+- action - 양식 데이터를 처리할 URL
+- enctype -> 파일을 업로드 할때
+	(enctype='multipart/form-data')
+
+-target
+		- _self		(현재 창에서 열기)
+		- _blank  (새로운 창으로 열기)
+		- 내부 창의 name 속성 값
+		
+그룹화 태그
+<fieldset>
+	<legend>그룹 제목</legend>
+</fiedset>
+
+<lable></lable>
+
+id - checkbox, radio
+for - label
+
+select
+multiple - 여러개 선택 가능
+size - 한번에 노출할 갯수
+
+특정 option을 선택 할때 - selected
+
+명령 버튼
+type
+	- submit - 양식 제출 버튼
+	- button - 일반적인 버튼
+	-reset - 양식 취소 버튼
+	
+<input type='submit' , button, reset' value ='버튼명 입력'>
+
+<button type = 'submit, button, reset'>버튼명 입력</button>
+
+이미지를 버튼으로 설정
+type
+	- image - 제출 버튼 ( 이미지 제출 버튼 )
+		+ src 속성 추가 -> 이미지 경로 써줘야 함
+
+<input type="image" src="이미지 경로">
